@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./js/mokepon.css" />
+    <title>mokepon</title>
+  </head>
+
+  <body>
+  
+      <section id="mascota">
+        <div class="frases">
+          <h1 class="titulo">Mokepon</h1>
+          <h2 class="subtitulo">Elige tu mascota:</h2>
+        </div>
+       
+
+
+        <div class="container-center">
+        <div id="cardsContainer" class="cards"></div>
+  
+        <button id="btn-mascota">Eleccion</button>
+      </section>
+  
+      <section id="ataque">
+        <h1 class="titulo">Mokepon</h1>
+  
+        <h2 class="subtitulo">Elige tu ataque:</h2>
+  
+        <div id="contenedorAtaques" class="botones">
+          <!-- <button id="btn-fuego" class="btnAtaque">FUEGO 🔥</button>
+          <button id="btn-agua" class="btnAtaque">Agua 💧</button>
+          <button id="btn-tierra" class="btnAtaque">Tierra🌴</button> -->
+        </div>
+  
+        <div id="mensajes">
+          <p id="resultadof">A ver si puedes, mucha suerte 😎</p>
+          <section id="reinicio">
+            <button id="btn-reset">Reiniciar</button>
+          </section>
+        </div>
+  
+        <div id="ataques">
+          <div class="alinear-txt ataquesJugador">
+            <p id="vida-jugador">0</p>
+            <p id="mascota-aliada"></p>
+            <div id="ataquesDelJugador"></div>
+          </div>
+          <div class="alinear-txt ataquesEnemigo">
+            <p id="vida-enemigo">0</p>
+            <p id="mascota-enemiga"></p>
+            <div id="ataquesDelEnemigo"></div>
+          </div>
+        </div>
+      </section>
+    </div>
+    
+    <script src="./js/mokepon.js"></script>
+  </body>
+</html>
